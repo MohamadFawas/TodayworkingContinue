@@ -14,6 +14,7 @@ public class Library_management {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Long id;
+	private String indexNumber;
 	private String name;
 	private String title;
 	

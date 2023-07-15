@@ -8,6 +8,7 @@ import lombok.Setter;
 public class BookRequestDto {
 
 	private Long id;
+	private String indexNumber;
 	private String name;
 	private String title;
 }
